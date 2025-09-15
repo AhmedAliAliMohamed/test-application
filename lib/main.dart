@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
         },
         child: Center(
           child: const Text(
-            'Tap anywhere to change background color',
+            'Hello there',
             textAlign: TextAlign.center,
           ),
         ),
