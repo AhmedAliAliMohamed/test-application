@@ -1,16 +1,26 @@
-# test_applicarion
+# 🎨 Random Background Color App
 
-A new Flutter project.
+A simple Flutter application for the **test task**.  
+The app changes the background color to a random one when you tap anywhere on the screen.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
+- Tap anywhere on the screen to generate a random background color.
+- Clean code with **good naming** and **best practices** (DRY, KISS).
+- Uses [`solid_lints`](https://pub.dev/packages/solid_lints) to keep the codebase consistent and maintainable.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+- An IDE like VS Code or Android Studio.
+
+### Run the app
+```bash
+git clone https://github.com/your-username/random_color_app.git
+cd random_color_app
+flutter pub get
+flutter run

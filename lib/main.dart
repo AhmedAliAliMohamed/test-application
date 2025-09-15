@@ -45,7 +45,12 @@ class _MyHomePageState extends State<MyHomePage> {
       body: InkWell(
         onTap: () {
           setState(() {
-            backgroundColor = Color.fromARGB(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
+            backgroundColor = Color.fromARGB(
+              255,
+              random.nextInt(256),
+              random.nextInt(256),
+              random.nextInt(256),
+            );
           });
         },
         child: Center(
